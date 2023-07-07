@@ -834,7 +834,7 @@ position: relative;
 }
 .modal-form-input {
     width: 100%;
-    
+    height: 40px;
     padding: 22px 38px;
     font-size: 18px;
     padding-left: 38px;
@@ -843,7 +843,7 @@ position: relative;
 border-radius: 4px;
 border: 1px solid var(--navybluergba-);
 transition: border-color var(--transition-);
-height: 40px
+
 }
 
 .modal-form-input:focus {
@@ -888,7 +888,7 @@ height: 40px
         letter-spacing: 0.48px;
 }
 .form-comment:focus {
-    border: var(--iris-cl);
+    border-color: var(--iris-cl);
 }
 
 /* checkboxform *//* checkboxform *//* checkboxform *//* checkboxform */
@@ -928,7 +928,7 @@ height: 40px
     transition: opacity var(--transition-);
 }
 
-.form-checkbox:checked + .form-checkbox-custom > .form-checkbox-icon {
+.form-checkbox:checked  .form-checkbox-custom > .form-checkbox-icon {
     opacity: 1;
 }
 
