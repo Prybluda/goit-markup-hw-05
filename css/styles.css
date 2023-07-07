@@ -917,7 +917,7 @@ transition: border-color var(--transition-);
         fill: transparent;
 }
 
-.form-checkbox:checked /*+ .form-checkbox-custom*/{
+.form-checkbox:checked .form-checkbox-custom{
     border: none;
     fill: var(--cloud-cl);
     background-color: var(--hover-focus-cl);
