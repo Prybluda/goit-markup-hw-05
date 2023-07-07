@@ -812,44 +812,48 @@ border: none;
     letter-spacing: 0.32px;
 }
 
-.input-container {
+.label-container {
+    
        margin-bottom: 8px;
    }
 .modal-label {
-    position: relative;
+    
     display: block;
     color: var(--customer-icon);
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.17;
     letter-spacing: 0.48px;
-}
-
-.label-span{
-    display: block;
     margin-bottom: 4px;
 }
 
+.label-span{
+    
+}
+.input-container{
+position: relative;
+}
 .modal-form-input {
     width: 100%;
     height: 40px;
     padding: 22px 38px;
-    outline: transparent;
-
+    background-color: transparent;
     font-size: 18px;
-
-    transition: border var(--transition-);
-    border-radius: 4px;
-        border: 1px solid var(--lg-grey);
+padding-left: 38px;
+outline: transparent;
+border-radius: 4px;
+border: 1px solid var(--navybluergba-);
+transition: border-color var(--transition-);
 }
 
 .modal-form-input:focus {
-    border: 1px solid var(--iris-cl);
+    border-color: var(--iris-cl);
 }
 
 .modal-form-icon{
     position: absolute;
-    bottom: 11px;
+    top: 50%;
     left: 16px;
+    transform: translateY(-50%);
     transition: fill var(--transition-);
 }
 
