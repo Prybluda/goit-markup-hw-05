@@ -869,7 +869,7 @@ transition: border-color var(--transition-);
     height: 120px;
     padding: 8px 16px;
     font-size: 12px;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--navybluergba-);
     border: 1px solid  var(--navybluergba-);
@@ -897,6 +897,11 @@ transition: border-color var(--transition-);
 }
 
 .form-agreement {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--customer-icon);
+
     display: flex;
         align-items: center;
         gap: 8px;
