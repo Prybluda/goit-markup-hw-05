@@ -902,28 +902,31 @@ transition: border-color var(--transition-);
     letter-spacing: 0.04em;
     color: var(--customer-icon);
 
-    display: flex;
+    /* display: flex;
         align-items: center;
         gap: 8px;
         margin-bottom: 24px;
         color: #8E8F99;
-           
+            */
 }
 
 
 .form-checkbox-custom {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
         height: 16px;
         border-radius: 2px;
         border: 1px solid var(--navybluergba-);
-        transition: border-color var(--transition-), background-color var(--transition-);
+        transition: border-color var(--transition-), border var(--transition-), fill var(--transition-);
+        fill: transparent;
 }
 
 .form-checkbox:checked + .form-checkbox-custom{
-    border-color: var(--iris-cl);
+    border: none;
+    fill: var(--cloud-cl);
+    /* border-color: var(--iris-cl); */
 background-color: var(--iris-cl);
 }
 
