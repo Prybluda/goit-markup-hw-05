@@ -498,7 +498,7 @@
           </div>
           <div class="label-container">
             <label class="modal-label" for="user-name" name="label_user">
-              Email</label
+              <span class="label-span">Email</span></label
             >
 
             <div class="input-container">
@@ -515,14 +515,19 @@
           </div>
           <label class="modal-label" name="label_comment">
             <span class="label-span">Comment</span>
-            <textarea
-              class="form-comment"
-              name="form_comment"
-              rows="6"
-              placeholder="Text input"
-            ></textarea>
+            <div class="thumb-textarea">
+              <label class="modal-label" for="user-comment"></label>
+              <textarea
+                class="form-comment"
+                id="user-comment"
+                name="user-comment"
+                rows="6"
+                placeholder="Text input"
+              ></textarea>
+            </div>
           </label>
-          <label class="form-agreement">
+          <div class="agreement-thumb">
+          
             <input class="form-checkbox visually-hidden" type="checkbox" />
             <span class="form-checkbox-custom">
               <svg class="form-checkbox-icon" width="10" height="8">
@@ -533,7 +538,7 @@
               >I accept the terms and conditions of the
               <a class="form-agreement-link" href="">Privacy Policy</a>
             </span>
-          </label>
+         
 
           <button class="one-btn" type="submit">Send</button>
         </form>
