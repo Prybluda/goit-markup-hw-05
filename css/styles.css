@@ -915,19 +915,18 @@ transition: border-color var(--transition-);
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 16px;
+        width: 16px;
         height: 16px;
         border-radius: 2px;
         border: 1px solid var(--navybluergba-);
-        transition: border-color var(--transition-), border var(--transition-), fill var(--transition-);
+        transition: background-color var(--transition-), border var(--transition-), fill var(--transition-);
         fill: transparent;
 }
 
-.form-checkbox:checked + .form-checkbox-custom{
+.form-checkbox:checked+.form-checkbox-custom{
     border: none;
     fill: var(--cloud-cl);
-    /* border-color: var(--iris-cl); */
-background-color: var(--iris-cl);
+    background-color: var(--iris-cl);
 }
 
 .form-checkbox-icon {
@@ -935,7 +934,7 @@ background-color: var(--iris-cl);
     transition: opacity var(--transition-);
 }
 
-.form-checkbox:checked+.form-checkbox-custom > .form-checkbox-icon {
+.form-checkbox:checked + .form-checkbox-custom > .form-checkbox-icon {
     opacity: 1;
 }
 
