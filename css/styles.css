@@ -569,7 +569,9 @@ width: calc(100%-2*24px)/3;
 }
 
 
-.img-link:hover, 
+.img-link:hover .overlay-text {
+    transform: translateY(0);
+    }
 .img-link:focus .overlay-text{
     transform: translateY(0);
 }
