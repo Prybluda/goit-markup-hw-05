@@ -381,7 +381,7 @@ address {
     fill: var(--cloud-cl); 
    }
 
-   /* customers */
+   /* customers *//* customers *//* customers *//* customers *//* customers */
 
 
 .customers {
@@ -569,7 +569,8 @@ width: calc(100%-2*24px)/3;
 }
 
 
-.img-link:hover .overlay-text{
+.img-link:hover, 
+.img-link:focus .overlay-text{
     transform: translateY(0);
 }
    
